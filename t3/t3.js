@@ -14,4 +14,4 @@ if (s1 === s2 && s2 === s3) {
   type = 'epäsäännöllinen kolmio';
 }
 
-document.getElementById('target').insertAdjacentHTML('beforeend', type);
+document.querySelector('#target').innerHTML = type;
